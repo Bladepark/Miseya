@@ -11,30 +11,32 @@
 ![image](https://github.com/Bladepark/Miseya/assets/55986166/3234e9ff-ea0c-4eb7-bd11-dd19bbb950b8)
 
 - 등급별 아이콘 표시
-  - 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c90bd032-24ae-439b-bf7a-197bc32808df/Untitled.png)
+![image](https://github.com/Bladepark/Miseya/assets/55986166/589e1179-4518-4fa4-8ec7-874a560076f8)
+
 
 좋음
 
 mise1.png
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32231640-79bd-4e64-96ec-dde2bed85990/Untitled.png)
+![image](https://github.com/Bladepark/Miseya/assets/55986166/dc940028-4d61-4f07-a07d-f03370f2f61f)
+
 
 보통
 
 mise2.png
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b30d5ab-83d3-46cb-bcf9-21bf1420afbf/Untitled.png)
+![image](https://github.com/Bladepark/Miseya/assets/55986166/c4d8c8a0-cb78-4010-9063-3fd926e31748)
+
 
 나쁨
 
 mise3.png
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc12d36d-4d3a-4e22-a45d-5b7e3d43b00a/Untitled.png)
+![image](https://github.com/Bladepark/Miseya/assets/55986166/79063ffd-0d61-4a10-b152-7cc6ea34c2f7)
+
 
 매우나쁨
 
 mise4.png
-
   
