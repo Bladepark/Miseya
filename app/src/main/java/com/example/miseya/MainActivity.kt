@@ -62,11 +62,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun communicateNetWork(param: HashMap<String, String>) = lifecycleScope.launch() {
+    private fun communicateNetWork(param: HashMap<String, String>) = lifecycleScope.launch {
         val responseData = NetWorkClient.dustNetWork.getDust(param)
         Log.d("Parsing Dust ::", responseData.toString())
 
-        val adapter = IconSpinnerAdapter(binding.spinnerViewGoo)
+        IconSpinnerAdapter(binding.spinnerViewGoo)
         items = responseData.response.dustBody.dustItem!!
 
         val goo = ArrayList<String>()
@@ -78,7 +78,6 @@ class MainActivity : AppCompatActivity() {
         runOnUiThread {
             binding.spinnerViewGoo.setItems(goo)
         }
-
     }
 
     private fun setUpDustParameter(sido: String): HashMap<String, String> {
@@ -94,16 +93,13 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
-    fun getGrade(value: String): Int {
-        val mValue = value.toInt()
-        var grade = 1
-        grade = if (mValue >= 0 && mValue <= 30) {
-            1
-        } else if (mValue >= 31 && mValue <= 80) {
-            2
-        } else if (mValue >= 81 && mValue <= 100) {
-            3
-        } else 4
+    private fun getGrade(value: String): Int {
+        val grade: Int = when (value.toInt()) {
+            in 0..30 -> 1
+            in 31..80 -> 2
+            in 81..100 -> 3
+            else -> 1
+        }
         return grade
     }
 }
